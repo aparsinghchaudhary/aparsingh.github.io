@@ -371,13 +371,11 @@ main section h1{
 
 main .carousel{
     background:linear-gradient(rgba(255, 255, 255, 0),#4e424feb,rgba(255, 255, 255, 0.61));
-    filter: blur(3px);
     padding: 25px 35px;
     transition: all 0.5s ease;
 }
 main .carousel:hover{
     background:linear-gradient(rgba(255, 255, 255, 0),#0adaffeb,rgba(255, 255, 255, 0.61));
-    filter: blur(0px);
 }
 main .teams .carousel .card{
     background: rgba(185, 201, 200, 0.31);
@@ -663,12 +661,10 @@ footer.footer{
     height:150%;
     background:linear-gradient(rgba(255, 255, 255, 0.915),rgba(55, 23, 2, 0.418),#00b3ffa2,rgb(0, 0, 0));
     position: relative;
-    filter: blur(6px);
     text-align: center;
     transition: 1000ms;
 }
 footer.footer:hover{
-    filter: blur(0px);
     background:linear-gradient(rgba(255, 255, 255, 0.915),rgba(2, 48, 49, 0.418),#06d9ec,rgba(253, 7, 7, 0.737));
 
 }
