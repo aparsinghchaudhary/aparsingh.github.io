@@ -189,13 +189,9 @@ main .site-title{
     background-size: cover;
     height: 110vh;
     background-repeat: no-repeat;
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
     transition: all 1000ms;
 }
 main .site-title:hover{
-    filter: blur(0px);
-    -webkit-filter: blur(0px);
     transition: all 1000ms;
 }
 main .imgbx img{
